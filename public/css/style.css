@@ -1,0 +1,163 @@
+body {
+  background-color: #555555;
+  font-family: Verdana;
+  font-size: large;
+  color: #b6b996;
+}
+
+.country-links {
+  display: flex;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-item {
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+a {
+    font-family: Verdana;
+    font-size: large;
+    color: #b6b996;
+    text-decoration: none;
+}
+
+keke {
+  font-family: Verdana;
+  font-size: xx-large;
+  color: #b6b996;
+  text-decoration: none; 
+}
+
+keke:hover {
+  color: #ff9900;
+  font-weight: bold;
+   
+}
+
+a:hover { 
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.channel-link {
+  color: #DAD2BC;
+
+}
+.channel-link:hover {
+  color: #DAD2BC;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+.keke h2 {
+    font-family: Consolas;
+}
+
+li h1 {
+  color: #ffbb00;
+  font-weight: bolder;
+}
+
+#info {
+  display: flex;
+}
+
+.now {
+  appearance: none;
+  background-color: transparent;
+  box-sizing: border-box;
+  color: #DAD2BC;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Cascadia Mono;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #DAD2BC;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Cascadia Mono;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button:disabled {
+  pointer-events: none;
+}
+
+.button:hover {
+  color: #d62727;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.channels-flexbox {
+  display: flex;
+}
+
+.left {
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.right {
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.left-info {
+  min-width: 70%;
+  max-width: 70%;
+}
+
+.right-info {
+  min-width: 30%;
+  max-width: 30%;
+}

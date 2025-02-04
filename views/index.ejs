@@ -1,0 +1,52 @@
+<%/* index.ejs */%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLC CHANNEL SERVER</title>
+    <link href="/vlc/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="info">
+    <table>
+        <tr>
+            <td style="padding-left: 100px;"><h2><a class="now" href="<%= SOUT %>"><%= channel %></a></h2></td>
+            <td style="padding-left: 100px;"><a class="button" href="/vlc/kill">KILL</a></td>
+        </tr>               
+    </table>
+    </div>
+    <div class="country-links">
+        <a class="link-item" href="#list1"><keke>LIST1</keke></a>
+        <a class="link-item" href="#list2"><keke>LIST2</keke></a>
+
+    </div>
+    <div class="channels-flexbox">
+        <div class="left">
+            <div id="list1">
+                <ul>
+                    <li style="list-style-type: none;"><h1>LIST1</h1></li>
+                    <% for( var i = 0; i < list_1.length; i++ ) { %>
+                        <li class="list-item"><a href="/channel/<%= list_1[i].id %>"><%= list_1[i].name %></a></li>
+                    <% } %>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div id="list2">
+            <ul>
+                <li style="list-style-type: none;"><h1>LIST2</h1></li>
+                <% for( var i = 0; i < list_2.length; i++ ) { %>
+                    <li class="list-item"><a href="/channel/<%= list_2[i].id %>"><%= list_2[i].name %></a></li>
+                <% } %>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">        
+    </div>
+    <script>
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-ID="Channel 1" tvg-name="Channel 1" tvg-logo="[" group-title="Group A",Channel 1
+http://address:port/abcdefg/channel1
+#EXTINF:-1 tvg-ID="Channel 2" tvg-name="Channel 2" tvg-logo="[" group-title="Group B",Channel 2
+http://address:port/abcdefg/channel2
